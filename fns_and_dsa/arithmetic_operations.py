@@ -9,7 +9,5 @@ def perform_operation(num1, num2, operation):
         if num2 != 0:
             return num1 / num2
         else:
-            raise ValueError("Division by zero is not allowed.")
-    else:
-        raise ValueError(f"Invalid operation: {operation}")
+            return ValueError("Division by zero is not allowed.")
     
