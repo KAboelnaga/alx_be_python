@@ -22,7 +22,7 @@ class Book:
         print(f"Book '{title}' was not checked out.")
     def __str__(self):
         return f"{self.title} by {self.author}"
-class Library:
+class Library(Book):
     def __init__(self):
         self.books = []
 
